@@ -17,7 +17,7 @@
     "require": {
         "php": ">=5.3.10",
         "symfony/symfony": "2.2.*",
-        "doctrine/orm": "~2.2,>=2.2.3",
+        "doctrine/orm": "2.2.*",
         "doctrine/doctrine-bundle": "1.2.*",
         "twig/extensions": "1.0.*",
         "symfony/assetic-bundle": "2.1.*",
@@ -35,8 +35,7 @@
         "jaitsu87/constant-resolver": "1.0.1",
         "knplabs/knp-gaufrette-bundle": "0.1.4",
         "friendsofsymfony/user-bundle": "1.3.*",
-        "rippleffect/user-bundle": "1.0.0",
-        "knplabs/knp-menu-bundle": "1.1.x-dev"
+        "rippleffect/user-bundle": "1.0.0"
     },
     "scripts": {
         "post-install-cmd": [

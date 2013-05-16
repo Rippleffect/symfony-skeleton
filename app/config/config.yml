@@ -29,7 +29,7 @@ twig:
 assetic:
     debug:          %kernel.debug%
     use_controller: false
-    bundles:        ['MyFoodCoreBundle', 'MyFoodFoodBundle']
+    bundles:        [] # add bundles here that assetic can load resources for, e.g. VendorCoreBundle
     #java: /usr/bin/java
     filters:
         cssrewrite: ~
