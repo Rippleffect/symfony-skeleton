@@ -1,0 +1,11 @@
+<project name="Application Name" default="build" xmlns:sonar="antlib:org.sonar.ant">
+	<property file="build.properties" />
+    <!-- Builds the database -->
+    <import file="/ebs/scripts/ant/buildSymfonyDoctrineDb.xml" />
+    <!-- Runs common symfony tasks -->
+    <import file="/ebs/scripts/ant/buildSymfonyCommon.xml" />
+    <!-- Installs vendors via composer -->
+	<import file="/ebs/scripts/ant/buildComposerCommon.xml" />
+    <!-- Common build tasks -->
+	<import file="/ebs/scripts/ant/buildCommon.xml" />
+</project>

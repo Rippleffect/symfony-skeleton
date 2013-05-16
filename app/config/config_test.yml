@@ -1,0 +1,28 @@
+imports:
+    - { resource: config_dev.yml }
+
+framework:
+    test: ~
+    session:
+        storage_id: session.storage.mock_file
+    profiler:
+        enabled: false
+
+web_profiler:
+    toolbar: false
+    intercept_redirects: false
+
+swiftmailer:
+    disable_delivery: true
+
+security:
+    providers:
+        fos_userbundle:
+            id: fos_user.user_provider.username
+    # by using a http_basic firewall we can authenticate using HTTP auth headers in tests
+    firewalls:
+        main:
+            pattern: ^/
+            http_basic:
+                realm: "Secured Test"
+                provider: fos_userbundle

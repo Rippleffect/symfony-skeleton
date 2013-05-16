@@ -1,0 +1,17 @@
+parameters:
+
+    # defaults for Jenkins build
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: project_database #change this value
+    database_user: user
+    database_password: password
+
+    mailer_transport: smtp
+    mailer_host: host
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: someRandomString
+    database_path: null

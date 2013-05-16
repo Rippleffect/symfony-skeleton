@@ -1,0 +1,25 @@
+### IDE config files ###
+# IntelliJ IDEA
+.idea
+# NetBeans 
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+### Symfony2 ###
+# Bootstrap
+app/bootstrap*
+
+# Symfony directories
+vendor/*
+app/logs/*
+app/cache/*
+web/uploads/*
+web/bundles/*
+
+# Configuration files
+app/config/parameters.ini
