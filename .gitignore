@@ -22,4 +22,11 @@ web/uploads/*
 web/bundles/*
 
 # Configuration files
+app/config/parameters.yml
 app/config/parameters.ini
+
+# Binaries
+bin/*
+
+# Composer
+composer.lock
